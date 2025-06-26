@@ -3,9 +3,9 @@
 import { Twitter, Linkedin, Mail } from "lucide-react"
 
 const socialLinks = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "#", label: "Email" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/solanaglasses", label: "Twitter" },
+  { icon: Mail, href: "mailto:info@solanaglasses.com", label: "Email" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/solanaglasses", label: "LinkedIn" },
 ]
 
 export function SocialLinks() {
